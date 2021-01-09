@@ -1,14 +1,11 @@
 import './App.css';
-import HomePage from './pages/HomePage';
+import HomePage from './Pages/Homepage';
+import Explore from './Pages/Explore';
 import React, { Component } from 'react';
 import {
   HashRouter,
   Route,
 } from 'react-router-dom';
-
-import Navbar from './Navbar';
-
-import ScrollToTopRoute from './components/ScrollToTopRoute';
 
 class App extends Component {
   render(){
@@ -18,7 +15,8 @@ class App extends Component {
           <Navbar />
 
           <div id = "page-body">
-            <Route path="/" component ={HomePage} exact />
+            <Route path="/" component ={Homepage} exact />
+            <Route path="/Explore" component ={Explore} exact />
           </div>
         </div>
       </HashRouter>
