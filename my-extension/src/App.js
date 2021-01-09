@@ -1,5 +1,5 @@
 import './App.css';
-import HomePage from './Pages/Homepage';
+import Homepage from './Pages/Homepage';
 import Explore from './Pages/Explore';
 import React, { Component } from 'react';
 import {
@@ -12,7 +12,6 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
-          <Navbar />
 
           <div id = "page-body">
             <Route path="/" component ={Homepage} exact />
@@ -24,4 +23,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
