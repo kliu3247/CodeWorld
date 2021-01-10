@@ -14,6 +14,8 @@ import "../assets/css/explore.css"
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
+import Navigation from "../Navbar.js";
+
 const Explore = () => {
     return (
     <>
@@ -30,6 +32,7 @@ const Explore = () => {
         </Link>
         <a href=""><img src={pythonbubble} id="pythonbubble"/></a>
         <img src={title} id="title"/>
+        <Navigation/>
     </>
     );
 }

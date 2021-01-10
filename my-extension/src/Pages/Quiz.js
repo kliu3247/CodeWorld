@@ -11,6 +11,8 @@ import save from "../assets/images/quiz/save.png"
 import submit from "../assets/images/quiz/submit.png"
 
 import "../assets/css/quiz.css"
+import Navigation from "../Navbar.js";
+
 
 
 class Quiz extends React.Component {
@@ -36,6 +38,8 @@ class Quiz extends React.Component {
         return (
             <>
             <Background/>
+            <Navigation/>
+
             <Link to = "/Hubgames">
                  <img src = {bb} id = 'bb'/>
              </Link>

@@ -19,6 +19,8 @@ import { Link } from 'react-router-dom';
 
 import "../assets/css/hubgames.css"
 
+import Navigation from "../Navbar.js";
+
 const Hubgames = () => {
     return (
     <>
@@ -37,6 +39,7 @@ const Hubgames = () => {
         <a href=""><img src={padlockedpic} id="padlockedpic"/></a>
         <a href=""><img src={padlockedpic1} id="padlockedpic1"/></a>
         <a href=""><img src={headertext} id="headertext"/></a>
+        <Navigation/>
 
     </>
     );

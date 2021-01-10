@@ -1,0 +1,98 @@
+#bar{
+    position: absolute;
+    width: 400px;
+    height: 74.29px;
+    left: 0px;
+    top: 516px;
+    z-index: 50;
+}
+#pp{
+    position: absolute;
+width: 55.14px;
+height: 45.53px;
+left: 306.4px;
+top: 534.57px;
+z-index: 50;
+
+}
+
+#play{
+    position: absolute;
+    width: 55.71px;
+    height: 42.54px;
+    left: 172.68px;
+    top: 537.57px;
+    z-index: 50;
+}
+
+#explorebutton{
+    position: absolute;
+    width: 55.14px;
+    height: 45.82px;
+    left: 39.54px;
+    top: 534.29px;
+    z-index: 50;
+}
+
+#explorebutton:hover{
+    position: absolute;
+    width: 55.14px;
+    height: 45.82px;
+    left: 39.54px;
+    top: 534.29px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    z-index: 50;
+}
+
+#play:hover{
+    position: absolute;
+    width: 55.71px;
+    height: 42.54px;
+    left: 172.68px;
+    top: 537.57px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    z-index: 50;
+}
+
+#pp:hover{
+    position: absolute;
+width: 55.14px;
+height: 45.53px;
+left: 306.4px;
+top: 534.57px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    z-index: 50;
+}
+
+.line-explore{
+    position: absolute;
+width: 55.14px;
+height: 45.82px;
+left: 39.54px;
+top: 534.29px;
+z-index: 50;
+}
+
+.line-play{
+    position: absolute;
+width: 133.14px;
+height: 2.86px;
+left: 134px;
+top: 516px;
+z-index: 50;
+}
+
+.line-profile{
+    position: absolute;
+width: 133.14px;
+height: 2.86px;
+left: 267px;
+top: 516px;
+z-index: 50;
+}

@@ -1,0 +1,56 @@
+#top{
+    position: absolute;
+    width: 280.72px;
+    height: 236.74px;
+    left: 106.95px;
+    top: 16.99px;
+    z-index: 20;
+    
+}
+
+#pic1{
+    position: absolute;
+    width: 164.49px;
+    height: 112.52px;
+    left: 27.99px;
+    top: 291.86px;
+    z-index: 20;
+    
+}
+
+#pic2{
+    position: absolute;
+width: 164.49px;
+height: 113.09px;
+left: 198.9px;
+top: 293.86px;
+z-index: 20;
+}
+    
+#r{
+    position: absolute;
+    width: 349.55px;
+    height: 84.86px;
+    left: 26.99px;
+    top: 415.8px;
+    z-index: 20;
+}
+
+#ellipse{
+    position: absolute;
+width: 571.72px;
+height: 556.87px;
+left: -106.95px;
+top: 64.97px;
+z-index: 10;
+}
+
+#sg{
+    position: absolute;
+width: 134.22px;
+height: 18.28px;
+left: 33.98px;
+top: 261.87px;
+z-index: 20;
+
+}
