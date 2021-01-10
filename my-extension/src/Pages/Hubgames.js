@@ -12,6 +12,8 @@ import intropic from "../assets/images/hubgames/intro pic.png";
 import introtext from "../assets/images/hubgames/intro text.png";
 import padlockedpic from "../assets/images/hubgames/padlocked pic.png";
 import padlockedpic1 from "../assets/images/hubgames/padlocked pic-1.png";
+import headertext from "../assets/images/hubgames/headertextpng.png";
+
 
 import "../assets/css/hubgames.css"
 
@@ -30,6 +32,8 @@ const Hubgames = () => {
         <a href=""><img src={introtext} id="introtext"/></a>
         <a href=""><img src={padlockedpic} id="padlockedpic"/></a>
         <a href=""><img src={padlockedpic1} id="padlockedpic1"/></a>
+        <a href=""><img src={headertext} id="headertext"/></a>
+
     </>
     );
 }
