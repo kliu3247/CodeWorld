@@ -1,0 +1,87 @@
+#intropic{
+    position: absolute;
+    width: 159.01px;
+    height: 108.96px;
+    left: 32px;
+    top: 96px;
+}
+
+#introtext{
+    position: absolute;
+    width: 159.01px;
+    height: 36.33px;
+    left: 32px;
+    top: 216.13px;
+}
+
+#backbutton{
+    position: absolute;
+    width: 47.26px;
+    height: 47.26px;
+    left: 33px;
+    top: 29px;
+}
+
+#elementspic{
+    position: absolute;
+    width: 159.01px;
+    height: 108.76px;
+    left: 209.33px;
+    top: 96px;
+}
+
+#elementstext{
+    position: absolute;
+    width: 144.63px;
+    height: 36.33px;
+    left: 208.97px;
+    top: 216.13px;
+}
+
+#headingspic{
+    position: absolute;
+    width: 159.01px;
+    height: 108.97px;
+    left: 209.33px;
+    top: 270.25px;
+}
+
+#headingstext{
+    position: absolute;
+    width: 159.01px;
+    height: 36.07px;
+    left: 208.97px;
+    top: 390.4px;    
+}
+
+#attributespic{
+    position: absolute;
+    width: 159.01px;
+    height: 108.96px;
+    left: 32.51px;
+    top: 270.25px;    
+}
+
+#attributestext{
+    position: absolute;
+    width: 159.01px;
+    height: 36.07px;
+    left: 32px;
+    top: 390.4px;       
+}
+
+#padlockedpic{
+    position: absolute;
+    width: 159.52px;
+    height: 111.02px;
+    left: 32px;
+    top: 443.98px;    
+}
+
+#padlockedpic1{
+    position: absolute;
+    width: 159.52px;
+    height: 111.02px;
+    left: 208.82px;
+    top: 443.98px;    
+}
