@@ -1,0 +1,106 @@
+#worldbackground{
+    position: absolute;
+    width: 389px;
+    height: 304px;
+    left: 3px;
+    top: 152px;
+}
+    
+#java{
+    position: absolute;
+    width: 86.39px;
+    height: 88.83px;
+    left: 81px;
+    top: 270px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#java:hover{
+    transform: scale(1.1);
+}
+
+#python{
+    position: absolute;
+    width: 86.39px;
+    height: 94px;
+    left: 223px;
+    top: 229px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#python:hover{
+    transform: scale(1.1);
+}
+
+#hub{
+    position: absolute;
+    width: 97.04px;
+    height: 92.78px;
+    left: 145px;
+    top: 183px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#hub:hover{
+    transform: scale(1.1);
+}
+
+#javabubble{
+    position: absolute;
+    width: 95.22px;
+    height: 32.85px;
+    left: 23px;
+    top: 239px;    
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#javabubble:hover{
+    transform: scale(1.1);
+}
+
+#hubbubble{
+    position: absolute;
+    width: 118.94px;
+    height: 29.51px;
+    left: 153px;
+    top: 155px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#hubbubble:hover{
+    transform: scale(1.1);
+}
+
+#pythonbubble{
+    position: absolute;
+    width: 107.08px;
+    height: 33.16px;
+    left: 278px;
+    top: 218px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#pythonbubble:hover{
+    transform: scale(1.1);
+}
+
+#title{
+    position: absolute;
+    width: 271.06px;
+    height: 49px;
+    left: 40px;
+    top: 67px;
+}
+
