@@ -19,8 +19,8 @@ const Hubgames = () => {
     return (
     <>
         <Background/>
-        <a href=""><img src={attributespic} id="attributespic"/></a>
-        <a href=""><img src={attributestext} id="attributestext"/></a>
+            <a href=""><img src={attributespic} id="attributespic"/></a>
+            <a href=""><img src={attributestext} id="attributestext"/></a>
         <a href=""><img src={backbutton} id="backbutton"/></a>
         <a href=""><img src={elementspic} id="elementspic"/></a>
         <a href=""><img src={elementstext} id="elementstext"/></a>
@@ -33,6 +33,5 @@ const Hubgames = () => {
     </>
     );
 }
- 
 
 export default Hubgames;

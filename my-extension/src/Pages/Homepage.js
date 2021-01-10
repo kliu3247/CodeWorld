@@ -21,7 +21,7 @@ const Homepage = () => {
         <img src = {title} id = "introtitle" />
         <img src = {button1} id = "button1"/>
         <img src = {button2} id = "button2"/>
-        <Link to = "/Quiz"> 
+        <Link to = "/Explore"> 
             <img src = {getstarted} id = "button3"/>
         </Link>
     </>

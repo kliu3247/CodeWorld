@@ -36,7 +36,7 @@ class Quiz extends React.Component {
         return (
             <>
             <Background/>
-            <Link to = "/">
+            <Link to = "/Hubgames">
                  <img src = {bb} id = 'bb'/>
              </Link>
              <img src = {htmlatt} id = 'htmlatt'/>
