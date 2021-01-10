@@ -5,9 +5,7 @@
     position: absolute;
     z-index: 100;
     top: 380px;
-    transition-property: transform;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
+
 }
 
 #button1:hover{
@@ -20,9 +18,7 @@
     position: absolute;
     z-index: 100;
     top: 450px;
-    transition-property: transform;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
+
     
 }
 #button2:hover{
@@ -35,9 +31,6 @@
     position: absolute;
     z-index: 100;
     top: 525px;
-    transition-property: transform;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
 }
 
 #button3:hover{
