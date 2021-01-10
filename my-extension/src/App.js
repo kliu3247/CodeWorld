@@ -2,6 +2,7 @@ import './App.css';
 import Homepage from './Pages/Homepage';
 import Explore from './Pages/Explore';
 import Hubgames from './Pages/Hubgames';
+import Quiz from './Pages/Quiz';
 
 import React, { Component } from 'react';
 import {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/" component ={Homepage} exact />
             <Route path="/Explore" component ={Explore} exact />
             <Route path="/Hubgames" component ={Hubgames} exact />
+            <Route path="/Quiz" component ={Quiz} exact />
 
           </div>
         </div>
