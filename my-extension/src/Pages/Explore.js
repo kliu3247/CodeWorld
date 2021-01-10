@@ -11,6 +11,9 @@ import title from "../assets/images/explore/title.png";
 
 import "../assets/css/explore.css"
 
+import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+
 const Explore = () => {
     return (
     <>
@@ -18,9 +21,13 @@ const Explore = () => {
         <img src={worldbackground} id="worldbackground"/>
         <a href=""><img src={java} id="java"/></a>
         <a href=""><img src={python} id="python"/></a>
-        <a href=""><img src={hub} id="hub"/></a>
+        <Link to="/Hubgames">
+            <img src={hub} id="hub"/>
+        </Link>
         <a href=""><img src={javabubble} id="javabubble"/></a>
-        <a href=""><img src={hubbubble} id="hubbubble"/></a>
+        <Link to = "/Hubgames">
+            <img src={hubbubble} id="hubbubble"/>
+        </Link>
         <a href=""><img src={pythonbubble} id="pythonbubble"/></a>
         <img src={title} id="title"/>
     </>
