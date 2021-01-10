@@ -10,7 +10,7 @@
 }
 
 #intropic:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #introtext{
@@ -25,7 +25,7 @@
 }
 
 #introtext:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #backbutton{
@@ -48,7 +48,7 @@
 }
 
 #elementspic:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #elementstext{
@@ -63,7 +63,7 @@
 }
 
 #elementstext:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #headingspic{
@@ -83,7 +83,7 @@
 }
 
 #headingstext:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #attributespic{
@@ -98,7 +98,7 @@
 }
 
 #attributespic:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #attributestext{
@@ -113,7 +113,7 @@
 }
 
 #attributestext:hover{
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 #padlockedpic{

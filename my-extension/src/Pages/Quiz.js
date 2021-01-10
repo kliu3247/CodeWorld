@@ -67,7 +67,7 @@ class Quiz extends React.Component {
           />
           <br/>
           <br/>
-            <Link to = "/Explore">
+            <Link to = "/Submit">
                 <img src = {submit} id = 'submit'/>
             </Link>
           </form>

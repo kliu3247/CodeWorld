@@ -23,6 +23,9 @@ const Hubgames = () => {
     return (
     <>
         <Background/>
+        <Link to = "/Explore">
+                 <a href="/Explore"><img src = {backbutton} id = "backbutton"/></a>
+             </Link>
         <Link to = "/Quiz">
             <a href=""><img src={attributespic} id="attributespic"/></a>
             <a href=""><img src={attributestext} id="attributestext"/></a>

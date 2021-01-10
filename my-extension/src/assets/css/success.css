@@ -1,0 +1,39 @@
+#backtomap{
+    position: absolute;
+    width: 186.13px;
+    height: 10.42px;
+    left: 106px;
+    top: 464.22px;    
+}
+
+#collectpoints{
+    position: absolute;
+    width: 271px;
+    height: 33.66px;
+    left: 64px;
+    top: 418px;    
+}
+
+#progressbar{
+    position: absolute;
+    width: 222.81px;
+    height: 75.34px;
+    left: 88px;
+    top: 307px;
+}
+
+#successgraphic{
+    position: absolute;
+    width: 215.55px;
+    height: 181.79px;
+    left: 74px;
+    top: 31px;
+}
+
+#successtext{
+    position: absolute;
+    width: 232px;
+    height: 73px;
+    left: 83px;
+    top: 213px;
+}
