@@ -36,3 +36,10 @@
 #button3:hover{
     transform: scale(1.1);
 }
+
+#introtitle{
+    width: 350px;
+    left: 30px;
+    position: absolute;
+    top: 130px;
+}
