@@ -1,7 +1,6 @@
 import './App.css';
 import Homepage from './Pages/Homepage';
 import Explore from './Pages/Explore';
-import Quiz from './Pages/Quiz';
 import React, { Component } from 'react';
 import {
   HashRouter,
@@ -17,7 +16,6 @@ class App extends Component {
           <div id = "page-body">
             <Route path="/" component ={Homepage} exact />
             <Route path="/Explore" component ={Explore} exact />
-            <Route path="/Quiz" component ={Quiz} exact />
           </div>
         </div>
       </HashRouter>
