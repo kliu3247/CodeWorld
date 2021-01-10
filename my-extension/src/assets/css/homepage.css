@@ -22,8 +22,7 @@
     top: 450px;
     transition-property: transform;
     transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
-    
+    transition-timing-function: ease-in-out;    
 }
 #button2:hover{
     transform: scale(1.1);

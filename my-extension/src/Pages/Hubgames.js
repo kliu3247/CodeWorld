@@ -15,14 +15,18 @@ import padlockedpic1 from "../assets/images/hubgames/padlocked pic-1.png";
 import headertext from "../assets/images/hubgames/headertextpng.png";
 
 
+import { Link } from 'react-router-dom';
+
 import "../assets/css/hubgames.css"
 
 const Hubgames = () => {
     return (
     <>
         <Background/>
-        <a href=""><img src={attributespic} id="attributespic"/></a>
-        <a href=""><img src={attributestext} id="attributestext"/></a>
+        <Link to = "/Quiz">
+            <a href=""><img src={attributespic} id="attributespic"/></a>
+            <a href=""><img src={attributestext} id="attributestext"/></a>
+        </Link>
         <a href=""><img src={backbutton} id="backbutton"/></a>
         <a href=""><img src={elementspic} id="elementspic"/></a>
         <a href=""><img src={elementstext} id="elementstext"/></a>
@@ -37,6 +41,5 @@ const Hubgames = () => {
     </>
     );
 }
- 
 
 export default Hubgames;

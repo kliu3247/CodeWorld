@@ -4,6 +4,13 @@
     height: 108.96px;
     left: 32px;
     top: 96px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#intropic:hover{
+    opacity: 60%;
 }
 
 #introtext{
@@ -12,6 +19,13 @@
     height: 36.33px;
     left: 32px;
     top: 216.13px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#introtext:hover{
+    opacity: 60%;
 }
 
 #backbutton{
@@ -28,6 +42,13 @@
     height: 108.76px;
     left: 209.33px;
     top: 96px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#elementspic:hover{
+    opacity: 60%;
 }
 
 #elementstext{
@@ -36,6 +57,13 @@
     height: 36.33px;
     left: 208.97px;
     top: 216.13px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#elementstext:hover{
+    opacity: 60%;
 }
 
 #headingspic{
@@ -54,12 +82,23 @@
     top: 390.4px;    
 }
 
+#headingstext:hover{
+    opacity: 60%;
+}
+
 #attributespic{
     position: absolute;
     width: 159.01px;
     height: 108.96px;
     left: 32.51px;
-    top: 270.25px;    
+    top: 270.25px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;    
+}
+
+#attributespic:hover{
+    opacity: 60%;
 }
 
 #attributestext{
@@ -67,7 +106,14 @@
     width: 159.01px;
     height: 36.07px;
     left: 32px;
-    top: 390.4px;       
+    top: 390.4px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;       
+}
+
+#attributestext:hover{
+    opacity: 60%;
 }
 
 #padlockedpic{
