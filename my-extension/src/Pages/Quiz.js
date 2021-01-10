@@ -1,8 +1,16 @@
 import arrow from "../assets/images/htmlhub/Group 6792.png"
 import React from 'react';
-import QuizComponent from '../Components/QuizComponent';
 import Background from "../Components/Background";
 import { Link } from 'react-router-dom';
+
+import bb from "../assets/images/quiz/back-button.png"
+import htmlatt from "../assets/images/quiz/htmlattributes.png"
+import question1 from "../assets/images/quiz/question1.png"
+import question2 from "../assets/images/quiz/question2.png"
+import save from "../assets/images/quiz/save.png"
+import submit from "../assets/images/quiz/submit.png"
+
+import "../assets/css/quiz.css"
 
 
 class Quiz extends React.Component {
@@ -21,37 +29,49 @@ class Quiz extends React.Component {
         let link = this.state.link;
         if (Number(width) === 250 && Number(height) === 400 && link.includes('href')) {
             alert("Your age must be a number");
-        } else {
-            
-            <Link to = "/Explore">
-            <input type='submit' />
-            </Link>
-        }
+        } 
       }
       
       render() {
         return (
+            <>
+            <Background/>
+            <Link to = "/">
+                 <img src = {bb} id = 'bb'/>
+             </Link>
+             <img src = {htmlatt} id = 'htmlatt'/>
+             <img src = {question1} id = 'question1'/>
+             <img src = {question2} id = 'question2'/>
+             <img src = {save} id = 'save'/>
+             
+             
+           
           <form onSubmit={this.mySubmitHandler}>
-          <h1>Hello</h1>
-          <p> enter width here </p>
+
           <input
             type='text'
             name='width'
+            id = "width"
           />
-          <p> enter height here </p>
+
           <input
             type='text'
             name='height'
+            id ='height'
           />
-          <p>Enter answer</p>
+
           <input
             type='text'
             name='link'
+            id  ='link'
           />
           <br/>
           <br/>
-            <input type='submit' />
+            <Link to = "/Explore">
+                <img src = {submit} id = 'submit'/>
+            </Link>
           </form>
+          </>
         );
       }
 }
